@@ -1,0 +1,17 @@
+apiVersion: devices.kubeedge.io/v1alpha2
+kind: DeviceModel
+metadata:
+  name: device-model
+  namespace: default
+spec:
+  properties:
+    - name: version
+      type:
+        string:
+          accessMode: ReadWrite
+          defaultValue: ''
+    - name: file_md5
+      type:
+        string:
+          accessMode: ReadWrite
+          defaultValue: ''
