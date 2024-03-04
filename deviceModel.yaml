@@ -1,5 +1,5 @@
-apiVersion: V1
-kind: Pod
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
 metadata:
   name: device-model
   namespace: default
